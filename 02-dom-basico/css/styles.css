@@ -1,0 +1,111 @@
+h2 {
+    color: #1a4297;
+}
+
+.card h3{
+    color: #1a4297;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.card p{
+    color: #3c3c3c;
+    margin-bottom: 15px;
+}
+
+.filtros{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-filtro{
+    border-radius: 5px;
+    color: #3c3c3c;
+    font-weight: bold;
+    border: none;
+    background-color: #ffffff;
+    padding: 7px 13px;
+    border: 1px solid #bcb7b7;
+    cursor: pointer;
+}
+
+.btn-filtro-activo{
+    background-color: #1a4297;
+    border: 1px solid #1a4297;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+#contenedor-lista{
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.prioridad-alta{
+    background-color: #f3c7ce;
+    color: #c62828
+}
+
+.prioridad-media{
+    background-color: #f8ecc4;
+    color: #f57f17
+}
+
+.prioridad-baja {
+  background-color: #d1f5d5;
+  color: #2e7d32;
+}
+
+.btn-eliminar{
+    color: white;
+    background-color: #f03737;
+    font-weight:bold;
+    border-radius:5px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.card-actions{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.badge-categoria{
+    background-color: #e0edf3;
+    color: #179cf5;
+}
+
+.estado-activo{
+    background-color: #d1f5d5;
+  color: #2e7d32;
+}
+
+.estado-inactivo{
+    background-color: #f3c7ce;
+    color: #c62828
+}
+
+.card{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0,0.05);
+    border: 1px solid #eaeaea;
+}
+
+body {
+    background-color: #f8f9fa; 
+}
